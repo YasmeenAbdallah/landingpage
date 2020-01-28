@@ -1,0 +1,14 @@
+.nav__top{
+    background-color:#068daf  ;
+    
+   
+}
+.nav__main{
+    
+    background-color:#12679b;
+}
+.uk-navbar-nav>li.uk-navbar-item>a{
+    color: #fff;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
