@@ -1,0 +1,54 @@
+.nav__top{
+    background-color:#12679b  ;
+    height: 58px;
+    
+    
+   
+}
+.nav__main{
+    
+    background-color:#092e44;
+}
+.uk-navbar-nav>li.uk-navbar-item>a{
+    color: #fff;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero__content{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.hero{
+    background: rgba(76, 175, 80, 0.1);
+}
+.hero__btn{
+    background-color:#12679b ;
+    color: #fff;
+    font-size: 32px;
+    border-radius: 10px;
+    padding: 10px ;
+}
+.hero__card{
+    margin-top: 40px;
+    font-size:40px;
+   
+}
+.hero__card-value{
+    color: #fbff00!important;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    height: 120px;
+    width: 270px;
+    background-color: #092e44;
+    font-weight:bolder;
+    margin: 10px;
+    padding:15px 0px;
+    opacity: 0.9;
+    
+    
+}
+.uk-background-cover{
+    background: rgba(22, 8, 102, 0.3);
+}
