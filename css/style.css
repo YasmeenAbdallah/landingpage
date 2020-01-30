@@ -65,3 +65,17 @@
     margin-left: 43%;
     margin-top: -63px;
 }
+.test{
+    background-color:#092e44 ;
+    color: #fff;
+    padding: 15px;
+    font-family: Poppins,sans-serif;
+}
+.test__star{
+    color: #fff;
+}
+.test__footer{
+    padding: 10px;
+    font-family:italic;
+    color:#586b77;
+}
