@@ -232,10 +232,11 @@
     <!--start the contact section-->
     <section class="contact">
         <div class="uk-margin-large uk-text-center ">
-            <h3 style="font-size:30px;position: relative;padding: 15px 0px; color: #12679b; "><span style="color: black;">Get In</span>  Touch</h3>
-        <div class=" uk-child-width-1-2@s" uk-grid >
-            <div>
-                <div class=" contact__info uk-card uk-card-default uk-card-small uk-card-body" style="background-color: #092e44;">
+            <h3 style="font-size:30px;padding: 15px 0px; color: #12679b; "><span style="color: black;">Get In</span>  Touch</h3>
+        </div>
+            <div class=" uk-child-width-1-3@s uk-flex-center" uk-grid >
+            <div >
+                <div class="contact__info uk-card uk-card-default uk-card-small uk-card-body" style="background-color: #092e44;">
                     <h3 class=" contact__info-title ouk-card-title"><span style="color: #fff">Get </span>  <span style="color: #12679b">In Touch </span></h3>
                     <p class="contact__info-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <ul class="uk-list">
@@ -255,9 +256,26 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-large uk-card-body">
-                    <h3 class="uk-card-title">Large</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="contact__relative uk-card uk-card-default uk-card-large uk-card-body">
+                    <div class="uk-margin-large uk-text-center ">
+                        <h3 style="font-size:30px;padding: 15px 0px; color: #12679b; "><span style="color: black;">Contact</span>  us</h3>
+                    </div>
+                    <div class="container" >
+                       
+                        <form class="uk-grid-small" uk-grid action="#">
+                          
+                         
+                            <input type="text" id="username" class="uk-input uk-form-blank" placeholder="username"/>
+                            
+                            <input type="phone" id="phone" class="uk-input uk-form-blank uk-form-width-large"  placeholder="phone number."/>
+                            <input type="email" id="phone" class="uk-input uk-form-blank"  placeholder="prefered call time ."/>
+                            <input type="txt" id="message"  class="uk-textarea uk-form-blank" style="height:130px" placeholder="message" >
+                          
+                          <div class="uk-flex-center" >
+                            <button class="uk-button uk-form-blank"style="padding-left:130px" >Send</button>
+                          </div>
+                        </form>
+                      </div>
                 </div>
             </div>
         </div> 

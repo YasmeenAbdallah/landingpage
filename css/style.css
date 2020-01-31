@@ -107,4 +107,13 @@
     font-weight: bolder;
     padding-left:15px ;
 }
+.uk-first-columns{
+    position: absolute;
+    z-index: 2;
+    width: 600px;
+    margin: 100px;
+}
+
+.contact__form{
+padding: 10px;
 }
