@@ -9,11 +9,7 @@
     
     background-color:#092e44;
 }
-.uk-navbar-nav>li.uk-navbar-item>a{
-    color: #fff;
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .hero__content{
     text-align: center;
     margin-left: 50%;
@@ -50,27 +46,24 @@
     
 }
 
-.uk-background-cover{
-    background: rgba(22, 8, 102, 0.3);
-}
-.uk-h3{
-    margin-bottom: 20px;
-    font-size: 5rem;
-}
-.about__line-right{
-    background-color:#12679b; 
-    width: 300px; 
-    height: 10px; 
-    text-align: center;
-   
-}
-.about__line-left{
-    background-color:black; 
-    width: 100px; 
-    height: 10px; 
-    text-align: center;
+
+
+.line {
     
+        border-bottom: 8px solid #E5E5E5;
+        width: 100px;
+        margin-left:47%;
+        margin-top: -30px;
+       
 }
+.line:after {
+        content: '';
+        display: block;
+        border-bottom: 8px solid #12679b;
+        margin-bottom: -8px;
+        max-width: 50px;
+        
+      }
 .section_type-testimonial{
     background-color:#092e44 ;
     color: #fff;
@@ -85,7 +78,7 @@
     font-family:italic;
     color:#586b77;
 }
-.uk-list{
+.contact__info-list{
     padding: 15px;
     text-align: left;
     font-size: 20px;
@@ -105,7 +98,7 @@
     color: #fff;
     font-size: large;
 }
-.uk-icon{
+.contact__info-icon{
     padding: 15px;
     text-align: left;
     font-size: 20px;
@@ -113,21 +106,12 @@
     font-weight: bolder;
     padding-left:15px ;
 }
-.uk-first-columns{
-    position: absolute;
-    z-index: 2;
-    width: 600px;
-    margin: 100px;
-}
 
-.contact__form{
-padding: 10px;
-z-index: 1;
-}
+
 .service__info-content{
    margin: 30px;
-   padding-right: 60px;
-   padding-left: 100px;
+   padding-right: 30px;
+   padding-left: 20px;
 }
 .review{
     background-color:#092e44 ;
@@ -145,21 +129,24 @@ z-index: 1;
 }
 .contact__form{
     z-index: -1;
-    margin: -81px;
+    margin: -50px;
+
 }
 
 
-.hero__background::before{
-   
+.section_type-hero::before {
+    content: "";
     position: absolute;
-     width:100%;
+    top: 0;
+    left: 0;
     display: block;
-    
+    right: 0;
+    bottom: 0;
     background: #05385a;
     z-index: 0;
     opacity: .9;
 }
-.hero__background::after{
+.section_type-hero::after{
     content: "";
     position: absolute;
     top: 0;
@@ -170,4 +157,7 @@ z-index: 1;
     background: #05385a;
     z-index: 9;
     opacity:0;
+}
+.hero__heading{
+    color: #fff;
 }
