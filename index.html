@@ -28,10 +28,10 @@
             <!-- START .nav__top-->
             <div class="nav__top">
                 <!-- START .uk-navbar-container -->
-                <div class=" uk-navbar-container  uk-flex uk-flex-right@m uk-flex-center uk-navbar-transparent"
+                <div class="  uk-flex uk-flex-right@m uk-flex-center uk-navbar-transparent"
                     uk-navbar>
                     <!-- START uk-navbar-right -->
-                    <div class="uk-navbar-right ">
+                    <div class="uk-navbar-right uk-container ">
                         <!-- START .uk-navbar-nav -->
                         <ul class="uk-navbar-nav ">
                             <li class="uk-navbar-item">
@@ -50,9 +50,9 @@
             <!--nav-main dev-->
             <div class="nav__main">
                 <!--START .uk-navbar-container-->
-                <div class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class=" uk-navbar-transparent" uk-navbar>
                     <!-- START .uk-navbar-left-->
-                    <div class="uk-navbar-left">
+                    <div class="uk-navbar-left uk-container">
                         <ul class="uk-navbar-nav">
                             <img alt="logo"
                                 src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/logo-1.png">
@@ -61,7 +61,7 @@
                     </div>
                     <!--END .uk-navbar-left-->
                     <!--START .uk-navbar-right-->
-                    <div class="uk-navbar-right">
+                    <div class="uk-navbar-right uk-container">
 
                         <ul class="uk-navbar-nav">
 
@@ -86,12 +86,12 @@
         <!-- START .hero__background  -->
 
 
-        <div class="hero__background  uk-container uk-position-relative uk-overlay  uk-height-large uk-background-cover  uk-light uk-flex uk-flex-middle"
+        <div class="hero__background   uk-position-relative uk-overlay  uk-height-large uk-background-cover   uk-flex uk-flex-middle"
             uk-parallax="bgy: -100 "
-            style="background-image: url('https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/certainteed-asphalt-shingles-roofing-redding.jpg'); height: 98vh;">
+            style="background-image: url('https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/certainteed-asphalt-shingles-roofing-redding.jpg'); height: 98vh; width: 100%;">
             <!-- START .hero-overlay  -->
             <div
-                class="uk-overlay-panel uk-overlay-background uk-width-1-1@m uk-flex-middle uk-text-center uk-margin-auto uk-margin-auto-bottm">
+                class="uk-overlay-panel  uk-container uk-overlay-background uk-width-1-1@m uk-flex-middle uk-text-center uk-margin-auto uk-margin-auto-bottm">
                 <h1 class="hero__heading">HelloWorld xs</h1>
                 <h5 class="hero__heading">Build Masters, Lc (CGC 1505687) is a full service general contractor where one call does it all,
                     servicing South East Florida region . Our services include: Restoration and new construction</h5>
@@ -374,21 +374,23 @@
     </section>
     <!--End of the contact section -->
     <!--start address section-->
-    <section class="uk-margain uk-margin-large">
+    <section class="uk-margain uk-margin-large ">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13827.197385360532!2d31.251179599999997!3d29.956449699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145847f41b672bd7%3A0x7357392bdd40f39b!2sMaadi%20Metro%20Station!5e0!3m2!1sen!2seg!4v1580481303721!5m2!1sen!2seg"
             width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         <!--End address section-->
     </section>
     <!--start repair section-->
-    <section>
+    <section class="uk-container">
+        <!--START .uk-text-center-->
         <div class="uk-margin-large uk-text-center ">
             <h3 style="font-size:30px;padding: 15px 0px; color: #12679b; "><span style="color: black;">Repair</span>
                 service</h3>
         </div>
-
+        <!--END .uk-text-center-->
+        <!--START .service__info-->
         <div class="service__info uk-child-width-1-2@s" uk-grid>
-
+           <!--START .uk-card-->
             <div class="uk-margin uk-margin-large uk-card uk-card-default uk-card-large uk-card-body">
                 <h3 class="uk-card-title">WHY CHOOSE US!</h3>
                 <p class="service__info-content">Sawcut Concrete Cutting is a family owned and run business servicing
@@ -411,7 +413,8 @@
                     tools meeting
                     Workplace health and safety requirements..</p>
             </div>
-
+            <!--END .uk.card-->
+            <!--START .uk-card-media-->
             <div>
                 <div class="uk-card  uk-card-small uk-card-body">
                     <div class="uk-child-width-1-2@s uk-margin-left" uk-grid>
@@ -451,8 +454,11 @@
 
 
             </div>
+            <!--END .uk-card-media-->
         </div>
-        </div>
+        <!--END service__info-->
+        
+        
 
 
 
@@ -460,12 +466,12 @@
     </section>
     <!--End repair section-->
     <!--start review section-->
-    <section style="background-color: #092e44;">
-        <div class="uk-margin-large uk-text-center ">
+    <section style="background-color: #092e44;" >
+        <div class="uk-margin-large uk-text-center uk-container ">
             <h3 style="font-size:30px;padding: 15px 0px; color: #12679b; "><span style="color: #fff;">Our Reviews</span>
             </h3>
         </div>
-        <div class="uk-card uk-child-width-1-3@s uk-margin-auto uk-flex-center" uk-grid>
+        <div class="uk-card uk-child-width-1-3@s uk-margin-auto uk-flex-center uk-container" uk-grid>
 
             <div class="uk-text-center uk-margin-remove uk-margin-top" uk-grid>
                 <div>
@@ -504,7 +510,7 @@
                 </div>
 
             </div>
-            <div class="uk-text-center uk-margin-remove uk-margin-top" uk-grid>
+            <div class="uk-text-center uk-margin-remove uk-margin-top " uk-grid>
                 <div>
                     <div>
                         <img
@@ -524,7 +530,7 @@
 
             </div>
         </div>
-        <div class="uk-card uk-child-width-1-3@s uk-margin-auto" uk-grid>
+        <div class="uk-card uk-child-width-1-3@s uk-margin-auto uk-container" uk-grid>
             <div class="uk-text-center" uk-grid>
                 <div>
                     <div>
@@ -562,12 +568,12 @@
 
 
     </section>
-    <footer style="background-color:#092e44;">
-        <div class="uk-padding  uk-text-left">
+    <footer style="background-color:#092e44;" >
+        <div class="uk-padding  uk-text-left uk-container">
             <h2 style="color:#fff;">Cities we serve</h2>
             <hr>
         </div>
-        <div class="uk-padding uk-text-left ">
+        <div class="uk-padding uk-text-left uk-container ">
             <a style="color:#fff ;font-size: 1.5rem;" href="_blank">Home</a>
             <a class="uk-padding" style="color:#fff ;font-size: 1.5rem;"
                 href="https://xvxlabs.com/preview/wp/roofingmasters/sample-page/">Sample Page</a>
