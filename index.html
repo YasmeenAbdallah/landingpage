@@ -142,10 +142,9 @@
 
             </div>
             <!--END .uk-text-->
-        </div>
-        <!--END .uk-container-->
+       
         <!--START .uk-flex-->
-        <div class="uk-flex">
+        <div class="uk-flex ">
             <!--START .uk-card-body-->
             <div
                 class=" uk-margin-large uk-card uk-card-default uk-card-body uk-flex-last uk-margin-left uk-width-1-3@m">
@@ -194,7 +193,7 @@
         </div>
         <!--END .uk-text-center-->
         <!--START .uk-child-->
-        <div class="uk-child-width-1-3@m uk-margin uk-margin-auto" uk-grid>
+        <div class="uk-child-width-1-3@m uk-margin uk-margin-auto uk-container" uk-grid>
             <!--START .uk-card-->
                 <div class="uk-inline-clip uk-transition-toggle uk-card uk-card-default">
                     <!--START .uk-media-->
@@ -243,12 +242,16 @@
                 </div>
                 <!--END .uk-card-->
             </div>
+        </div>
+        <!--END .uk-container-->
     </section>
     <!--End service section-->
     <!--start testimonials section-->
     <section class="section section_type-testimonial testimonials">
-        <div class=" uk-margin-large uk-text-center ">
+        <!--START .uk-text-center-->
+        <div class=" uk-margin-large uk-text-center  uk-container">
             <h3 style="font-size:30px;position: relative;padding: 15px 0px; color: #fff; ">Our testimonials</h3>
+            <!--START .uk-margin-->
             <div class=" uk-margin uk-margin-auto uk-grid uk-child-width-expand@s" uk-grid>
                 <div>
                     <h3><span class="test__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
@@ -256,12 +259,16 @@
                     </h3>
                     ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua.
+                    <!--START .test__footer-->
                     <footer class="test__footer">
 
                         &#45;<a href="_blank"> Google</a>
                     </footer>
+                    <!--END .test__footer-->
                 </div>
+                <!--START .test__star-->
                 <div>
+                    
                     <h3><span class="test__star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
                     </h3> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -285,18 +292,23 @@
 
 
             </div>
+            <!--END .test_star-->
         </div>
-
+<!--END .uk-margin-->
     </section>
     <!--End of testmonial section-->
     <!--start the contact section-->
-    <section class="section section_type-contact contact">
+    <section class="section section_type-contact contact uk-container">
+        <!--START .uk-text-center-->
         <div class="uk-margin-large uk-text-center ">
             <h3 style="font-size:30px;padding: 15px 0px; color: #12679b; "><span style="color: black;">Get In</span>
                 Touch</h3>
         </div>
+        <!--END .uk-text-center-->
+        <!--START .uk-child-->
         <div class="uk-child-width-1-3@s uk-flex-center" uk-grid>
-            <div>
+            
+                <!--START .contact__info-->
                 <div class="contact__info uk-card uk-card-default uk-card-small uk-card-body"
                     style="background-color: #092e44;">
                     <h3 class=" contact__info-title ouk-card-title"><span style="color: #fff">Get </span> <span
@@ -309,6 +321,7 @@
                         <li><i class="fas fa-map-marker-alt"></i> Address</li>
                     </ul>
                     <hr>
+                    <!--START .uk-icon-->
                     <div class=" uk-flex uk-flex-center">
                         <span uk-icon="icon: instagram"> </span>
                         <span uk-icon="icon: facebook"> </span>
@@ -317,15 +330,21 @@
 
 
                     </div>
+                    <!--END .uk-icon-->
                 </div>
-            </div>
-            <div>
+                <!--END .contact__info-->
+            
+            
+                <!--START .contact__form-->
                 <div class="contact__form uk-card uk-card-default uk-card-large uk-card-body">
+                    <!--START .uk-text-center-->
                     <div class="uk-margin-large uk-text-center ">
                         <h3 style="font-size:30px;padding: 15px 0px; color: #12679b; "><span
                                 style="color: black;">Contact</span> us</h3>
                     </div>
-                    <div class="container">
+                    <!--END .uk-text-center-->
+                    <!--START form-->
+                
 
                         <form class="uk-grid-small" uk-grid action="#">
 
@@ -343,13 +362,15 @@
                                 <button class="uk-button uk-form-blank" style="padding-left:130px">Send</button>
                             </div>
                         </form>
-                    </div>
+                    <!--END form-->
                 </div>
-            </div>
-        </div>
+                <!--END .contact__form-->
 
+           
 
         </div>
+         <!-- END .uk-child-->
+       
     </section>
     <!--End of the contact section -->
     <!--start address section-->
