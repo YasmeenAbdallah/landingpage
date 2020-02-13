@@ -1,0 +1,40 @@
+.contact__info-list{
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    color: $color__main;
+    font-weight: bolder;
+}
+.contact__title{
+    color: $color__main;
+   
+}
+.contact__info-title{
+    color: $color__main;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.contact__info-content{
+    color: $color__main;
+    font-size: large;
+}
+.contact__info-icon{
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    color: $color__main;
+    font-weight: bolder;
+    padding-left:15px ;
+}
+
+
+.service__info-content{
+   margin: 30px;
+   padding-right: 30px;
+   padding-left: 20px;
+}
+.contact__form{
+    z-index: -1;
+    margin: -50px;
+
+}

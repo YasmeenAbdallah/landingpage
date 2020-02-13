@@ -1,0 +1,30 @@
+// scss
+//  common.blocks
+//   section
+//    section.scss
+//    __title
+//     section__title.scss
+//   card
+
+
+
+.hero__card{
+    margin-top: 40px;
+    font-size:40px;
+   
+}
+.hero__card-value{
+    color:$color__sunflower!important;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    height: 120px;
+    width: 270px;
+    background-color: $color__primary;
+    font-weight:bolder;
+    margin: 10px;
+    padding:15px 0px;
+    opacity: 0.9;
+    
+    
+}

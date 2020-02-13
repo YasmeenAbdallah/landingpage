@@ -1,0 +1,16 @@
+.line {
+    
+    border-bottom: 8px solid #E5E5E5;
+    width: 100px;
+    margin-left:47%;
+    margin-top: -30px;
+   
+}
+.line:after {
+    content: '';
+    display: block;
+    border-bottom: 8px solid $color__secondary;
+    margin-bottom: -8px;
+    max-width: 50px;
+    
+  }
