@@ -9,9 +9,7 @@
     z-index: 0;
     opacity: .9;
 
-   & h1{
-       
-   }
+  
 
 }
 .section_type-hero::after{
@@ -25,30 +23,33 @@
     background: $color__background;
     z-index: 9;
     opacity:0;
+   
 }
 
-.hero__content{
+.hero__type-content{
     text-align: center;
     margin-left: 50%;
     margin-right: 50%;
+    h1{
+        color:$color__main;
+        position: relative;
+        z-index: 1;
+       }
+    h5{
+        color: $color__main;
+        position: relative;
+        z-index: 1;
+       }
 }
 
 .hero__btn{
     background-color:$color__secondary ;
-    color: #fff;
+    color:$color__main;
     font-size: 32px;
     border-radius: 10px;
     padding: 10px ;
     position: relative;
     z-index: 1;
 }
-.hero__type-heading{
-    color: #fff;
-    position: relative;
-    z-index: 1;
-}
-.hero__type-text{
-    color: #fff;
-    position: relative;
-    z-index: 1;
-}
+
+

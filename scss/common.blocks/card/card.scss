@@ -10,8 +10,8 @@
     margin-top: 40px;
     font-size:40px;
    
-}
-.hero__card-value{
+
+  & .hero__card-value{
     color:$color__sunflower!important;
     font-family: Poppins,sans-serif;
     text-align: center;
@@ -23,14 +23,17 @@
     margin: 10px;
     padding:15px 0px;
     opacity: 0.9;
+
+    & .hero__crad-text{
+        color:$color__main;
+        position: relative;
+        z-index: 1;
+    }
     
     
+}
 }
 
-.hero__crad-text{
-    color: #fff;
-    position: relative;
-    z-index: 1;
-}
+
 
 
