@@ -33,4 +33,4 @@ cssmin = require('gulp-cssnano'),
         gulp.watch('./scss/**/*.*', gulp.series('sass'));
     });
 
-gulp.task('default', gulp.series('html', 'sass', 'watch'));
+gulp.task('default', gulp.series('sass', 'watch'));
