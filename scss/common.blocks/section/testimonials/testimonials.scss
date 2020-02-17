@@ -3,6 +3,13 @@
     color: $color__main;
     padding: 15px;
     font-family: Poppins,sans-serif;
+
+    & .testimonial__type-heading{
+        font-size:30px;
+        position: relative;
+        padding: 15px 0px; 
+        color: $color__main;
+    }
 }
 .test__star{
     color: $color__main;
