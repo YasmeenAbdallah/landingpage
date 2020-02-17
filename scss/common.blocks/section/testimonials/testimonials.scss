@@ -4,18 +4,18 @@
     padding: 15px;
     font-family: Poppins,sans-serif;
 
-    & .testimonial__type-heading{
-        font-size:30px;
+     h3{
+        font-size:20px;
         position: relative;
-        padding: 15px 0px; 
+        padding: 15px 0px 25px 0px; 
         color: $color__main;
     }
 }
-.test__star{
+.testimonial__type-star{
     color: $color__main;
 }
-.test__footer{
-    padding: 10px;
+.testimonial__type-footer{
+    padding: 5px;
     font-family:italic;
     color:#586b77;
 }
