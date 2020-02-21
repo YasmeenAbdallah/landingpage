@@ -1,8 +1,11 @@
-.section_type-about{
-
-    h1{
-    font-size:50px;
-    position: relative;
-    padding: 50px 0px;
+.section__type-about{
+    & .about__type-heading{
+     h1{
+        font-size:50px;
+        position: relative;
+        padding: 50px 0px;
+           span{
+              color:$color__secondary;
+              }
     }
-}
+}}

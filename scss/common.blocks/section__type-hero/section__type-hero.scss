@@ -1,5 +1,5 @@
 //hero section
-.section_type-hero::before {
+.section__type-hero::before {
     content: "";
     position: absolute;
     display: block;
@@ -9,7 +9,7 @@
     z-index: 0;
     opacity: .9;
 
- & .section_type-hero::after{
+ & .section__type-hero::after{
     content: "";
     position: relative;
     width: 100%;
