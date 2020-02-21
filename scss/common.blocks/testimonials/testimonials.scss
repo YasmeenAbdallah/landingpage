@@ -10,12 +10,17 @@
         padding: 15px 0px 25px 0px; 
         color: $color__main;
     }
-}
-.testimonial__type-star{
-    color: $color__main;
-}
-.testimonial__type-footer{
-    padding: 5px;
-    font-family:italic;
-    color:#586b77;
-}
+   & .testimonial__type-text{
+       text-align: center;
+       & .testimonial__type-star{
+        color: $color__main;
+      }
+      & .testimonial__type-footer{
+        padding: 5px;
+        font-family:italic;
+        color:#586b77;
+    }
+   } 
+
+ 
+  }

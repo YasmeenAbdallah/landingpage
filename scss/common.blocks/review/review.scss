@@ -8,13 +8,13 @@
              color: $color__main;
          }
     }  
-}
-.review__type-content{
+
+ & .review__type-content{
     span{
         color: $color__sunflower;
     }
 }
-.review__type-footer{
+ & .review__type-footer{
     h3{
         color: $color__main;
         span{
@@ -22,10 +22,10 @@
         }
     }
 }
-.review__type-brand{
+ & .review__type-brand{
     background-color: $color__primary;
 }
-
+}
 
 
 
