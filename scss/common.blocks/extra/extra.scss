@@ -4,13 +4,14 @@
     width: 100px;
     margin-left:47%;
     margin-top: -30px;
-   
-}
-.line:after {
-    content: '';
+    &::after{
+
+        content: '';
     display: block;
     border-bottom: 8px solid $color__secondary;
     margin-bottom: -8px;
-    max-width: 50px;
+    max-width: 50px; 
+    }
     
-  }
+   
+}

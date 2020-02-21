@@ -1,6 +1,13 @@
 .nav__top{
     background-color:$color__secondary ;
-    height: 58px;}
+     height: 58px;
+    & .nav__top-content{
+        a{
+            color: $color__main;
+        }
+    }
+
+}
 .nav__main{
     
     background-color:$color__primary;
