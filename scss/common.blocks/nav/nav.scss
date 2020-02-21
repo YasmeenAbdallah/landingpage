@@ -9,6 +9,13 @@
 
 }
 .nav__main{
-    
     background-color:$color__primary;
+    ul{
+        li{
+            a{
+                color: $color__main;
+            }
+        }
+    }
+  
 }

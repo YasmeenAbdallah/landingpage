@@ -22,7 +22,7 @@ cssmin = require('gulp-cssnano'),
     });
 
     // html function
-    gulp.task('html', () => {
+    gulp.task('htmlmin', () => {
         return gulp.src('./*.html')
             .pipe(htmlmin({ collapseWhitespace: true }))
             .pipe(gulp.dest('./build'));
@@ -33,4 +33,4 @@ cssmin = require('gulp-cssnano'),
         gulp.watch('./scss/**/*.*', gulp.series('sass'));
     });
 
-gulp.task('default', gulp.series('sass', 'watch'));
+gulp.task('default', gulp.series('sass', 'htmlmin','watch'));
